@@ -82,5 +82,31 @@
 ### Box Model
 + margin
 + border
-+ margin
-+ 
++ padding
+   -padding:10px(_all adjacent sides)
+   -padding:10px 
++ width
+#### Responsive Web Design
+#### Flex box
+
+   - display
+      - flex
+         - flex-wrap
+         - justify-content
+         - flex-direction
+         - flex-flow
+
+
+    
++ display property
+    -none
+    -inline
+
++ position
+     -static
+     -relative
+     -absoluate
+     -fixed
+     -sticky
++ algin-content
++ algin items
