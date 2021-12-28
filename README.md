@@ -61,4 +61,26 @@
      - sub
     - textarea
 ### reference link
- -
+ -[flaticon]
+ ### Selectors
+
+ + simple selectors
+      -universal selector(*)
+      -By element name
+      -Grouping Selector(,)
+      -Class selector
+      -Id selector
++ combinators
+   + descendent selector( )
+   + child selector(>)
+   + adjacent siblind selector
+   + general sibling selector( negation)
++ Pseudo class selector
++ pesudo element selector
++ attribute selector
+
+### Box Model
++ margin
++ border
++ margin
++ 
