@@ -1,0 +1,42 @@
+<html>
+<head>
+<style>
+body{
+    color:black;background-color:white;background-image:url("store.jpg");
+background-position:right;background-size:15%15%;background-repeat:repeat-y;}
+</style>
+<center>
+<h1><strong>Registration Form</strong></h1>
+</center>
+</head>
+
+<body bgcolor="white" align="center">
+<form name="f1">
+<fieldset>
+<legend>Registration Details</legend>
+<center>
+<div style="margin-left:475px;border:2px dotted black;width:500px;height:500px;float:left;background-color:pink">
+<table align="center" cellpadding="4" cellspacing="4">
+
+
+<tr><td>First Name:</td><td> <input type="text" placeholder="firstname" name="fn" o></td></tr>
+<tr><td>Last Name:</td><td> <input type="text" name="ln" ></td></tr>
+<tr><td>Username:</td><td><input type="text" name="un" ></td></tr>
+<tr><td>Password: </td><td><input type="password" name="pwd" ></td></tr>
+<tr><td>Confirm Password:</td><td> <input type="password" name="cpwd" ></td></tr>
+<tr><td>Gender:</td><td><input type="radio" id="male" name="gender" value="male"><label for="male">male</label>
+<input type="radio" id="female" name="gender" value="female"><label for="female">female</label></td></tr>
+<tr><td>Email Id: </td><td><input type="text" name="eid" ></td></tr>
+<tr><td>Postal Code: </td><td><input type="int" name="pc" maxlength="6"></td></tr>
+<tr><td>Mobile No. </td><td><input type="int" name="pnum" maxlength="13"></td></tr>
+<tr><td>Date of Birth:</td><td> <input type="date"></td></tr>
+<tr><td>Address:</td><td> <input type="text" height="1000"></td></tr>
+<tr>
+<td align="center"><input type="button" value="submit" onClick=validate() ></td>
+<td align="center"><input type="reset" value="reset"></td>
+</table>
+</center>
+</fieldset>
+</form>
+</body>
+</html>

@@ -110,3 +110,39 @@
      -sticky
 + algin-content
 + algin items
+##### media quries
+- Extra small devices(moblies)
+     - max Width:600px
+- small devices(large phones)
+     - min-width:600px
+     - 768
+- medium devices
+      -min width:768px
+- large devices(large laptops or desktops)
+    - min width:992px
+- etxra large device()
+      - min width:1200px
+```
+@media only screen(max-width:320px) and (max-width:500px)
+{
+   css code
+}
+```
++ colors
+  - primary
+  - secondary
+  - info
+  - sucess
+  - warning
+  - danger
+  - light
+  - dark
+  - white
+
++ we can use color classes for
+      -bottons (btn btn-primary)
+      - text (text-white)
+      - back ground (big secondary)
+      - alerts (alert alert-primary)
+      
+ 
