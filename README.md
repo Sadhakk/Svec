@@ -149,5 +149,35 @@
      - md
      - lg
      - xl
-           
+#### javaScript
+
++ IN 1995 `Barden eich` introduced JavaScript (ES-262)
++ JavaScript loosely touple and dynamic language
++ it is text base programing language And we ca use in client side and server -side for dynamic web application
+- ECMA (ES-6)
+     -let & const
+     - map(arrow function)
+     - classes
++ varibles and data types
++ data types
+     - number
+     - BigInt(2^53-1)
+     - string
+     - boolean
+     - undefined
+     - null
+     - object
+     - arrays
++ varibles
+     - var,let,const
+     - scope 
+     - redefine
+     - redeclare
+
+
++ `type of ()`
+  
+
+
+
  
