@@ -144,5 +144,10 @@
       - text (text-white)
       - back ground (big secondary)
       - alerts (alert alert-primary)
-      
++ Grid system
+     - sm
+     - md
+     - lg
+     - xl
+           
  
