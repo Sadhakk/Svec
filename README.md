@@ -259,7 +259,17 @@
             - `create-react-app project name`
      - `npx create react app appname`
      
++ props
+  
+    
+      - to pass data form one component to another component we will use pros
+      -  Props are immutable
 
+
+      + UnionBank (Functional)
+         - AndraBank (Functional)
+         - CorporationBank (class)
+         
 
 
 
