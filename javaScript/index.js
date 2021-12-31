@@ -32,15 +32,46 @@
 // destructing of array
 // let employee=["sunil","sadak","venky"]
 
-let employee={
-      uname:"sadhak",
-     designation:"junior software developer",
-         salary:"6.6LPA",
-         mobile:7731013250
-     }
-     let {uname,designation,...remainList}=employee
-     console.log(uname);
-     console.log(designation);
-     console.log(remainList);
+// let employee={
+//       uname:"sadhak",
+//      designation:"junior software developer",
+//          salary:"6.6LPA",
+//          mobile:7731013250
+//      }
+//      let {uname,designation,...remainList}=employee
+//      console.log(uname);
+//      console.log(designation);
+//      console.log(remainList);
 
-    
+//     confirm("the registration sucessful")
+//     console.warn("show the error message")
+
+// Arrow function
+
+ let employees=["sadak","sunil","venky","lokesh"]
+
+// for(let i=0;i<employees.length;i++){
+// console.log(employees)
+// }
+//
+// for(let i of employees){
+//     console.log(i)
+// }
+
+
+// employees.forEach(function(element,index){
+//     return element+"k"
+// })
+// console.log(employees)
+
+
+
+
+// let result= employees.map((element,index)=>{
+//     return element+" k"+index
+// })
+// console.log(result)
+// employees.forEach(function(element,index){
+//     console.log(element+" ok")
+// })
+

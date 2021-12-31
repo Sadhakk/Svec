@@ -175,8 +175,92 @@
      - redeclare
 
 
-+ `type of ()`
++ spread operator
+
+
+ ```
+
+
+   ...variableName
+
+```
++ for in 
+     - To get index value of an array
++ for of
+       -to get elements in an array
+
++ destructuring of arryas and objects
+### DOM
+     - document object model
+     - document
+     - history
+     -  windows
+     - navigator
++ Dom methods
+    -`getElementById`
+    -`getElementsByClassName`
+    - `innerText`
+    - `textcontent`
+    - ` append`
+    - `appenchild`
+    - `innner HTMl`
+    - `Set attributs`
+    - `class list`
+    - `getElementsByName`
+    -`style`
+    - `src`
+
+
+#### JSON
++ javaScriot object notation
+       - To exchange information between application and sever
+       -
+
+```
+
+{
+     "name":"sadhak kacheri"
+     "salary":"10.0lpa",
+     "designation":"MERN developer",
+     "moblie":7731013250
+}
+
+```
++ Ajax call or Promises (fetch API)or axios
+
+ #### Reacts js
+
+
+
+
+ ###### ReactJs Features
+ 
++ it is a Library
++ it follows compotent based Architecture
+    - function compontent
+    - class component
+    - pure component
+    - Higher order component
++ It provides Virutal DOM
++ Unidirctional data flow
++ Single page application
   
+
++ Environment setup
+
+    -[Downloadvisualstudiocode]
+    - [DownloadNodejs()]
+    - install nodejs and check versions   ` node` and `npm`
+        - `node -v`
+        - ` npm -v`
+     - `webpack` and `babel`
+     - `create-react-app`
+          - `npm install create-react-app`
+            - `create-react-app project name`
+     - `npx create react app appname`
+     
+
+
 
 
 

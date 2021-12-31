@@ -8,6 +8,17 @@
     <script src="./index.js"></script>
 </head>
 <body>
+    <div class="main">
+        <div class="child">
+
+           <h2 id="demo">heading
+               <span>Text</span>
+               <a href="">link</a>
+
+           </h2>
+        </div>
+
+    </div>
     <script>
         // console.log("welcome")
         // function demo(){
@@ -26,6 +37,16 @@
         // }
         // console.log(age);
         // var age=23;
+
+var main=document.querySelector(".main")
+var child=document.querySelector(".child")
+
+        var heading=document.createElement('h1');
+        heading.textContent="welcome";
+        main.appendChild(heading);
+        main.appendChild(child);
+        var content=document.getElementById("demo").innerHTML;
+        console.log(content)
     </script>
     
 </body>

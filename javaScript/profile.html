@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.card{
+    border: 1px solid lightgreen;
+    background-color: gray;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="cards">
+
+    </div>
+    <script>
+        fetch('http://jsonplaceholder.typicode.com/posts')
+        .then(response  => response.json())
+        .then(info =>
+        profile(info)
+        )
+
+        var cards=document.querySelector('.cards');
+        let profile =(info)=>{
+
+            info.map( cardobject => {
+                //console.log(cardobject)
+
+            let card=document.createElement('div');
+            card.classList.add("card");
+            card.style.width="20rem";
+            
+            let cid=document.createElement('h1');
+            cid.textContent=cardobject.id;
+            card.appendChild(cid);
+
+            let ctitle=document.createElement('h4');
+            ctitle.textContent=cardobject.title;
+            card.appendChild(ctitle);
+
+            let cbody=document.createElement('p');
+            cbody.textContent=cardobject.body;
+            card.appendChild(cbody);
+
+
+
+
+            cards.appendChild(card)
+            })
+        }
+    </script>
+    
+</body>
+</html>
