@@ -9,6 +9,8 @@ import Corportation from './components/Corportation';
 import AndhraBank from './components/AndhraBank';
 import StateinClassComponent from './components/StateinClassComponent';
 import StatesInFunctionalComponent from './components/StatesInFunctionalComponent';
+import ListRendering from './components/ListRendering';
+import Home from './components/Home';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,8 +18,10 @@ ReactDOM.render(
     <Functional /> */}
     {/* <UnionBank/>
      */}
-      <StateinClassComponent/> 
+      {/* <StateinClassComponent/>  */}
     {/* <StatesInFunctionalComponent/> */}
+    {/* <ListRendering/> */}
+    <Home/>
     
   </React.StrictMode>,
   document.getElementById('root')

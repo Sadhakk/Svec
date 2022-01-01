@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import'../States.css';
+
 export default class StateinClassComponent extends Component {
 
     constructor(props) {
         super(props)
-    
+  // 
         this.state = {
              name:"sadak",
              count:0

@@ -269,7 +269,58 @@
       + UnionBank (Functional)
          - AndraBank (Functional)
          - CorporationBank (class)
-         
+
++ states
+ - In react to maintain information we will use states
+  - we canmaintain states in class compotent only (Before react16.8 versions)
+  - to take stste react,Try to craete constructor above render method and inside of class compotent
+  - use `rconst` snippet
+   
+   ```
+   constructor {
+        super();
+        this.states
+   }
+  
+  ```
+  - to upadte state informstion class component use `setState()` Method
+  + to update information inclass class compotent life cycle methods
+     - `componentWillReciveProps()`
+      + `componentWillMount()`
+     + `compotentDidMount()`
+     - `componentshouldupdate() `
+     - `compotentwillupdate()`
+     - `componentdidupdate()`
+     - `componentWillUnmount`
+
+  ##### hooks
+
+  + form react16.8 Hooks are introduced
+
+  - parent - child1--> child2 -->child3
+  - `use child`
+  - `useEffect`
+  - `use memo`]
+  - `useref`
+  - `use context`
+
+#### List Rendering
+
+
+
+#### routing in react
+
++ to navigate(Route) form one component to another
+- `npm react-`
+- `routes`
+- `route`
+- `element`
+- `path`
+- `BrowserRouter`
+
+
+  #### eventHandling & Form Handling
+
 
 
 
